@@ -29,6 +29,7 @@ public class LogicView extends View {
         super(context, attrs);
     }
 
+
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
@@ -43,7 +44,9 @@ public class LogicView extends View {
         //postInvalidate();
         //canvas.drawText("hi",rx,300,paint);
     }
+void logic(){
 
+}
     class MyThread extends Thread {
 
         @Override
